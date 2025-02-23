@@ -1,4 +1,4 @@
-### React Native Texts and TextInputs. ###
+### React Native Custom Texts and TextInputs. ###
     
 Develop Enviroment:
 
@@ -13,6 +13,8 @@ React Native version 0.76.6
 expo version 52.0.27
 
 Emulators:
+genymotion 3.8.0
+HTC ONE Anroid 12.
 
 
 biblio:

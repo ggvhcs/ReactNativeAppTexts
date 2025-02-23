@@ -1,13 +1,25 @@
-import React, { useState } from "react";
-import { StyleSheet, Text, TextInput, View } from "react-native";
+import React from "react";
+import { StyleSheet, View } from "react-native";
 
-import AppTextInput from "./app/components/appTextInput";
+import AppTextInput from "./components/appTextInput";
 
 export default function App() {
-  console.log("App executed");
+  console.log("AppText on React Native  executed");
+
   return (
     <View style={styles.container}>
-      <AppTextInput placeholder="Username" icon="email" />
+      <AppTextInput
+        placeholder="Nombre de Usuario..."
+        icon="account"
+        keyboard="numeric"
+        ste={false}
+      />
+      <AppTextInput
+        placeholder="Contraceña..."
+        icon="account"
+        keyboard="default"
+        ste={true}
+      />
     </View>
   );
 }
