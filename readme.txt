@@ -17,5 +17,5 @@ genymotion 3.8.0
 HTC ONE Anroid 12.
 
 
-biblio:
+--- bibliography ---
 https://t.me/Mosh4Learning
